@@ -73,5 +73,5 @@
    "inputRev": "main",
    "inherited": false,
    "configFile": "lakefile.lean"}],
- "name": "minif2f",
+ "name": "leanineqmix",
  "lakeDir": ".lake"}

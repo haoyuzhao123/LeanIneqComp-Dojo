@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «miniF2F» {
+package «leanineqmix» {
   -- add any package configuration options here
 }
 
@@ -12,6 +12,6 @@ require aesop from git "https://github.com/JLimperg/aesop"
 require proofwidgets from git "https://github.com/leanprover-community/ProofWidgets4" @ "v0.0.30"
 
 @[default_target]
-lean_lib «MiniF2F» {
+lean_lib «LeanIneqMix» {
   -- add any library configuration options here
 }
