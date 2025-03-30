@@ -1,2 +1,2 @@
-# LeanIneqBench-Dojo
-LeanIneqBench for LeanDojo
+# LeanIneqMix-Dojo
+LeanIneqMix for LeanDojo
