@@ -52,7 +52,7 @@ theorem cauchy_p65 (n : ℕ) (a b : Fin n → ℝ) (ha : ∀ i, a i > 0) (hb : �
 theorem cauchy_p66 (x y a b: ℝ) (hx : x > 0) (hy : y > 0) (ha : a > 0) (hb : b > 0) (hxy : x + 1 / y = 1) (hab : a + 1 / b = 4) : √a / √y + √x / √b ≤ 2 := by
   sorry
 
-theorem cauchy_p67 (a b c d e : ℝ) (ha : a > 0) (hb : b > 0) (hc : c > 0) (hd : d > 0) (he : e > 0) (h : (log (a / b))^2 + (log (b / c))^2 + (log (c / d))^2 + (log (d / e))^2 = 1) : log (a * e^2 / (b^2 * c)) ≤ √10 := by
+theorem cauchy_p67 (a b c d e : ℝ) (ha : a > 0) (hb : b > 0) (hc : c > 0) (hd : d > 0) (he : e > 0) (h : (Real.log (a / b))^2 + (Real.log (b / c))^2 + (Real.log (c / d))^2 + (Real.log (d / e))^2 = 1) : Real.log (a * e^2 / (b^2 * c)) ≤ √10 := by
   sorry
 
 theorem cauchy_p68 (n : ℕ) (hn : n > 2) (a : Fin n → ℝ) (ha1 : ∀ i, a i < 1) (ha2 : ∀ i, a i ≥ 0) (hs : ∑ i : Fin n, (a i)^2 = n - 2) : ∑ i : Fin n, ((a i)^4 / (1 - (a i)^2)) ≥ ((n : ℝ) - 2)^2 / 2 := by

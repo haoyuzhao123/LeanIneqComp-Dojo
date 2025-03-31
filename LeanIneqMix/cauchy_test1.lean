@@ -64,7 +64,7 @@ theorem cauchy_p44 (x y z a b c : ℝ) (hx : x > 0) (hy : y > 0) (hz : z > 0) (h
 theorem cauchy_p45 (a b c x y z : ℝ) (ha : a > 1) (hb : b > 1) (hc : c > 1) (hx : x > 1) (hy : y > 1) (hz : z > 1) (h : (a^2-1)/2 + (b^2-1)/2 + (c^2-1)/3 = 1) (g : (x^2-1)/2 + (y^2-1)/2 + (z^2-1)/3 = 1) : (a + b + c) * (x + y + z) ≤ 49 / 3 := by
   sorry
 
-theorem cauchy_p46 (n : ℕ) (a b x y : Fin n → ℝ) (hn : n > 0) (ha : ∀ i, a i > 0) (hb : ∀ i, b i > 0) (hx : ∀ i, x i > 0) (hy : ∀ i, y i > 0) (sum_eq1 : ∑ i, a i = ∑ i , b i) (sum_eq2 : ∑ i, x i = ∑ i , by i): (∑ i, (a i) ^ 2 / (a i + b i)) * (∑ i, (x i) ^ 2 / (x i + y i)) ≥ (∑ i, a i) * (∑ i, x i) / 4 := by
+theorem cauchy_p46 (n : ℕ) (a b x y : Fin n → ℝ) (hn : n > 0) (ha : ∀ i, a i > 0) (hb : ∀ i, b i > 0) (hx : ∀ i, x i > 0) (hy : ∀ i, y i > 0) (sum_eq1 : ∑ i, a i = ∑ i , b i) (sum_eq2 : ∑ i, x i = ∑ i , y i): (∑ i, (a i) ^ 2 / (a i + b i)) * (∑ i, (x i) ^ 2 / (x i + y i)) ≥ (∑ i, a i) * (∑ i, x i) / 4 := by
   sorry
 
 theorem cauchy_p47 (a b c d e s1 x y z w u s2 : ℝ) (ha : a > 0) (hb : b > 0) (hc : c > 0) (hx : x > 0) (hy : y > 0) (hz : z > 0) (hd : d > 0)  (he : e > 0) (hw : w > 0)  (hu : u > 0) (hs1 : s1 = a + b + c + d + e) (hs2 : s2 = x + y + z + w + u) : (a^2 / (a^2 + b * (s1 - b)) + b^2 / (b^2 + c * (s1 - c)) + c^2 / (c^2 + d * (s1 - d)) + d^2 / (d^2 + e * (s1 - e)) + e^2 / (e^2 + a * (s1 - a))) * (x^2 / (x^2 + y * (s2 - y)) + y^2 / (y^2 + z * (s2 - z)) + z^2 / (z^2 + w * (s2 - w)) + w^2 / (w^2 + u * (s2 - u)) + u^2 / (u^2 + x * (s2 - x))) ≥ 1 := by
