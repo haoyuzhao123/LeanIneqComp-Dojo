@@ -7,7 +7,7 @@ open BigOperators Real Nat Topology Rat
 theorem jensen_p21 (x y : ℝ) (h : x > 0) (g : y > 0) : ((1:ℝ)/3 * ((1:ℝ)/x) + (2:ℝ)/3 * ((1:ℝ)/y)) ^ 4 ≤ (1:ℝ)/3 * ((1:ℝ)/x)^4 + (2:ℝ)/3 * ((1:ℝ)/y) ^ 4  := by
   sorry
 
-theorem jensen_p2 (x y : ℝ) : Real.exp ((1:ℝ)/4 * x^2 + (3:ℝ)/4 * y^2) ≤ (1:ℝ)/4 * Real.exp (x^2) + (3:ℝ)/4 * Real.exp (y^2)  := by
+theorem jensen_p22 (x y : ℝ) : Real.exp ((1:ℝ)/4 * x^2 + (3:ℝ)/4 * y^2) ≤ (1:ℝ)/4 * Real.exp (x^2) + (3:ℝ)/4 * Real.exp (y^2)  := by
   sorry
 
 theorem jensen_p23 (x y : ℝ) (h : x > 0) (g : y > 0): ((1:ℝ)/4 * √x + (3:ℝ)/4 * √y) * Real.log ((1:ℝ)/4 * √x + (3:ℝ)/4 * √y) ≤ (1:ℝ)/4 * √x * Real.log (√x) + (3:ℝ)/4 * √y * Real.log (√y) := by
