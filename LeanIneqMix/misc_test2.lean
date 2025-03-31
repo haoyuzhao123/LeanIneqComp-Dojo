@@ -46,7 +46,7 @@ theorem induction_p13 (n : ℕ) (h₀ : 4 ≤ n^2) : n ^ 4 ≤ (n^2) ! := by
 theorem induction_p14 (n : ℕ) (h₀ : 3 ≤ n) : (2*n) ! < (2*n) ^ ((2*n) - 1) := by
   sorry
 
-theorem induction_p15 (n : ℕ) (h₀ : 0 < n) : (∏ k in Finset.Icc 1 (n^3), (1 + (1 : ℝ) / k ^ 3)) ≤ (3 : ℝ) - 1 / ↑(n^3) := by
+theorem induction_p15 (n : ℕ) (h₀ : 0 < n) : (∏ k in Finset.Icc 1 (n^(3:ℕ)), (1 + (1 : ℝ) / k ^ 3)) ≤ (3 : ℝ) - 1 / ↑(n^(3:ℕ)) := by
   sorry
 
 theorem schur_p11 (a b c: ℝ) (ha : a > 0) (hb : b > 0) (hc : c > 0) (h : a * b^2 * c^3 = 1) : (a - 1 + 1 / (b^2)) * (b^2 - 1 + 1 / (c^3)) * (c^3 - 1 + 1 / a) ≤ 1 := by
