@@ -1,9 +1,0 @@
-import LeanIneqMix.amgm_valid
-import LeanIneqMix.amgm_test1
-import LeanIneqMix.amgm_test2
-import LeanIneqMix.cauchy_valid
-import LeanIneqMix.cauchy_test1
-import LeanIneqMix.cauchy_test2
-import LeanIneqMix.misc_valid
-import LeanIneqMix.misc_test1
-import LeanIneqMix.misc_test2
