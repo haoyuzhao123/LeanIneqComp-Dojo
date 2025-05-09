@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «leanineqmix» {
+package «leanineqcomp» {
   -- add any package configuration options here
 }
 
@@ -12,6 +12,6 @@ require aesop from git "https://github.com/JLimperg/aesop"
 require proofwidgets from git "https://github.com/leanprover-community/ProofWidgets4" @ "v0.0.30"
 
 @[default_target]
-lean_lib «LeanIneqMix» {
+lean_lib «LeanIneqComp» {
   -- add any library configuration options here
 }
