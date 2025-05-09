@@ -73,5 +73,5 @@
    "inputRev": "main",
    "inherited": false,
    "configFile": "lakefile.lean"}],
- "name": "leanineqmix",
+ "name": "leanineqcomp",
  "lakeDir": ".lake"}
